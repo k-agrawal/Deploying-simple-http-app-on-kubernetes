@@ -1,0 +1,19 @@
+# Service for our pod 
+
+apiVersion: v1
+
+kind: Service
+
+metadata: 
+
+  name: simple-http-svc
+
+spec:
+
+  type: LoadBalancer
+
+  ports: 
+
+    - port: 3000
+  selector:
+          component: web
