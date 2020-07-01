@@ -15,7 +15,7 @@ spec:
   containers:
 
   - name: simple-http-ctr
-    image: kacregistry.azurecr.io/simple-http
+    image: acr125.azurecr.io/simple-http
     ports:
     - containerPort: 3000
     resources: {}
